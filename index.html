@@ -3,97 +3,100 @@
 <html>
 
 <head>
-    >title
-    <Форма HTML</title>
+    <title>Форма HTML</title>
 </head>
 
 <body>
 
-    >h1<Форма HTML</h1>
+    <h1>Форма HTML</h1>
 
-    < <="/"
-      method="POST">
-
-      <label>
- Введите ваше имя:<br />
-        < <="field-name-1" />
-      </<><</ />
-
-      <label>
- Введите ваш email:<br />
-        < <="field-email"
-          type="email" />
-      </<><</ />
-
-      <label>
- Введите вашу дату рождения:<br />
-        < <="field-date"
-          type="date" />
-      </<><</ />
-
- Пол:<br />
-      <label <>input  <="radio" checked ="checked"
-        name="radio-group-1" value="Значение1" />
- Мужской</label>
-      <label<>input <="radio"
-        name ="radio-group-1" value ="Значение2" />
- Женский</label><br />
-
- Количество конечностей:<br />
-      <label <>input  <="radio" checked ="checked"
-        name="radio-group-1" value="Значение1" />
- 0</label>
-      <label<>input <="radio"
-        name ="radio-group-1" value ="Значение2" />
- 1</label>
-      <label <>input  <="radio" checked ="checked"
-        name ="radio-group-1" value ="Значение3" />
- 2</label>
-      <label<>input <="radio"
-        name="radio-group-1" value="Значение4" />
- 3</label>
-       <label<>input <="radio"
-        name="radio-group-1" value="Значение5" />
- 4</label><br />
+    <form action="/"
+          method="POST">
 
         <label>
- Сверхспособности(если есть):<br />
-        < <="field-name-2">
-          <option <="Значение0">Отстутствуют</option>
-          <option <="Значение1">Бессмертие</option>
-          <option <="Значение2">Прохождение сквозь стены</option>
-          <option <="Значение3">Левитация</option>
-        </select>
-      </<><</ />
+            Введите имя:<br />
+            <input name="field-name-1" />
+        </label><br />
+
+        <label>
+            Введите ваш email:<br />
+            <input name="field-email"
+                   type="email" />
+        </label><br />
+
+        <label>
+            Введите вашу дату рождения:<br />
+            <input name="field-date"
+                   type="date" />
+        </label><br />
+
+        Пол:<br />
+        <label>
+            <input type="radio" checked="checked"
+                   name="radio-group-1" value="Значение1" />
+            Мужской
+        </label>
+        <label>
+            <input type="radio"
+                   name="radio-group-1" value="Значение2" />
+            Женский
+        </label><br />
+
+        Количество конечностей:<br />
+        <label>
+            <input type="radio" checked="checked"
+                   name="radio-group-1" value="Значение1" />
+            0
+        </label>
+        <label>
+            <input type="radio"
+                   name="radio-group-1" value="Значение2" />
+            1
+        </label>
+        <label>
+            <input type="radio" checked="checked"
+                   name="radio-group-1" value="Значение3" />
+            2
+        </label>
+        <label>
+            <input type="radio"
+                   name="radio-group-1" value="Значение4" />
+            3
+        </label>
+        <label>
+            <input type="radio"
+                   name="radio-group-1" value="Значение5" />
+            4
+        </label><br />
+
+        <label>
+            Сверхспособности:<br />
+            <select name="field-name-2">
+                <option value="Значение1">Бессмертие</option>
+                <option value="Значение2">Прохождение сквозь стены</option>
+                <option value="Значение3">Левитация</option>
+            </select>
+        </label><br />
 
 
 
-      <label>
- Ваша биография:<br />
-        <textarea name">">
-      </label><br />
+        <label>
+            Ваша биография:<br />
+            <textarea name="field-name-3"></textarea>
+        </label><br />
 
 
 
-      <label>
- С контрактом ознакомлен(a)
-        <input <="checkbox" checked="checked"
-        name ="check-1" />
-          </<><</ />
+        Чекбокс:<br />
+        <label>
+            С контрактом ознакомлен(a)
+            <input type="checkbox" checked="checked"
+                   name="check-1" />
+        </label><br />
 
 
-      <input <="submit" value="Отправить" />
+        <input type="submit" value="Отправить" />
     </form>
-
-    <br>
-    <br>
-    <ol>
-        <li><a href="https://example.com">абсолютная гиперссылка на главную страницу сайта example.com</a></li>
-        <li></li>
-    </ol>
-
-
-
 
 </body>
 

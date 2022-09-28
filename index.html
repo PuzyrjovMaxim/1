@@ -8,7 +8,10 @@
 
 <body>
     <a id="top"></a>
-    <h1>Форма HTML</h1>
+    <header>
+        <h1>Форма HTML</h1>
+        <img src="https://www.freeimages.com/ru/photo/wump-world-1535812" alt="main logo">
+    </header>
 
     <form action="/"
           method="POST">
@@ -76,7 +79,7 @@
 
         <label>
             Сверхспособности(если есть):<br />
-            <select name="field-name-2"> 
+            <select name="field-name-2">
                 <option value="Значение1">Отсутствуют</option>
                 <option value="Значение2">Бессмертие</option>
                 <option value="Значение3">Прохождение сквозь стены</option>
@@ -93,7 +96,7 @@
 
 
 
-        
+
         <label>
             С контрактом ознакомлен(a)
             <input type="checkbox" checked="checked"
@@ -103,7 +106,33 @@
 
         <input type="submit" value="Отправить" />
     </form><br />
-    <a id = "anchor"></a>
+
+           <table>
+               <tr>
+                   <th>Колонка 1</th>
+                   <th>Колонка 2</th>
+                   <th>Колонка 3</th>
+               </tr>
+               <tr>
+                   <td>Ячейка 11</td>
+                   <td colspan="2">Ячейка 12<td>
+               </tr>
+               <tr>
+                   <td>Ячейка 21</td>
+                   <td>Ячейка 22</td>
+                   <td>Ячейка 23</td>
+               </tr>
+               <tr>
+                   <td colspan="3">Ячейка 31</td>
+               </tr>
+               <tr>
+                   <td>Ячейка 41</td>
+                   <td>Ячейка 42</td>
+                   <td>Ячейка 43</td>
+               </tr>
+           </table>
+
+    <a id="anchor"></a>
     <h2>Ссылки</h2>
     <ol>
         <li><a href="http://example.com">абсолютная гиперссылка на главную страницу сайта example.com</a></li>
@@ -125,7 +154,7 @@
         <li><noindex><a href="https://example.com">Запрещённая для индексации поисковиками</a></noindex></li>
         <li> контекстную в <a href="https://example.com">тексте</a> абзаца</li>
         <li><a href="unsplash.com/photos"><img src="https://unsplash.com/photos/7Bmk9mAXP2I" alt="Ошибка">Ссылка на изображение</a></li>
-        <li><map name ="yandex"> <area shape="rect"coords="311,110,744,285"href="https://https://ru.wikipedia.org/wiki"alt="Прямоугольник"> <area shape="circle"coords="168,184,115"href="https://ru.wikipedia.org/wiki/Кратер_(военачальник)" alt="Круг"> </map> <a id="map"><img src="example/figures.png"usemap="#yandex"alt="map"></a>
+        <li><map name="yandex"> <area shape="rect" coords="311,110,744,285" href="https://https://ru.wikipedia.org/wiki" alt="Прямоугольник"> <area shape="circle" coords="168,184,115" href="https://ru.wikipedia.org/wiki/Кратер_(военачальник)" alt="Круг"> </map> <a id="map"><img src="example/figures.png" usemap="#yandex" alt="map"></a>
         <li><a href="Ссылаемый документ.html">относительную на страницу в текущем каталоге</a></li>
         <li><a </li>
         <li><a href="../Ссылаемый документ.html"> относительную на страницу в каталоге уровнем выше текущего</a></li>
@@ -133,8 +162,12 @@
         <li><a href="/"></a> сокращенную на главную</li>
         <li><a href="/год рождения/2004.html"> сокращенную ссылку на внутреннюю</a></li>
     </ol>
-    
+
+    <footer>
+        <p>(c) Сергей Синица 2022</p>
+    </footer>
+
 
 </body>
 
-</html> 
+</html>

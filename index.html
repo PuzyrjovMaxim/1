@@ -3,170 +3,176 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="StyleSheet.css">
     <title>Форма HTML</title>
 </head>
 
-<body>
+<body id="menu" class="main">
     <a id="top"></a>
     <header>
         <h1>Форма HTML</h1>
         <img src="https://www.freeimages.com/ru/photo/wump-world-1535812" alt="main logo">
     </header>
 
-    <nav>
-        <a href="https://www.youtube.com/">Youtube</a> | <a href="#anchor">Список ссылок</a> | <a href="#table">Таблица</a>
-    </nav>
+    <div class="main">
 
-    <form action="/"
-          method="POST">
+        <nav>
+            <a href="https://www.youtube.com/">Youtube</a> | <a href="#anchor">Список ссылок</a> | <a href="#table">Таблица</a>
+        </nav>
 
-        <label>
-            Введите ваше имя:<br />
-            <input name="field-name-1" />
-        </label><br />
+        <form action="/"
+              method="POST">
 
-        <label>
-            Введите ваш email:<br />
-            <input name="field-email"
-                   type="email" />
-        </label><br />
+            <label>
+                Введите ваше имя:<br />
+                <input name="field-name-1" />
+            </label><br />
 
-        <label>
-            Введите вашу дату рождения:<br />
-            <input name="field-date"
-                   type="date" />
-        </label><br />
+            <label>
+                Введите ваш email:<br />
+                <input name="field-email"
+                       type="email" />
+            </label><br />
 
-        Пол:<br />
-        <label>
-            <input type="radio" checked="checked"
-                   name="radio-group-1" value="Значение1" />
-            Мужской
-        </label>
-        <label>
-            <input type="radio"
-                   name="radio-group-1" value="Значение2" />
-            Женский
-        </label><br />
+            <label>
+                Введите вашу дату рождения:<br />
+                <input name="field-date"
+                       type="date" />
+            </label><br />
 
-        Количество конечностей:<br />
-        <label>
-            <input type="radio" checked="checked"
-                   name="radio-group-1" value="Значение1" />
-            0
-        </label>
-        <label>
-            <input type="radio"
-                   name="radio-group-1" value="Значение2" />
-            1
-        </label>
-        <label>
-            <input type="radio" checked="checked"
-                   name="radio-group-1" value="Значение3" />
-            2
-        </label>
-        <label>
-            <input type="radio"
-                   name="radio-group-1" value="Значение4" />
-            3
-        </label>
-        <label>
-            <input type="radio"
-                   name="radio-group-1" value="Значение5" />
-            4
-        </label>
-        <label>
-            <input type="radio" checked="checked"
-                   name="radio-group-1" value="Значение6" />
-            5
-        </label><br />
+            Пол:<br />
+            <label>
+                <input type="radio" checked="checked"
+                       name="radio-group-1" value="Значение1" />
+                Мужской
+            </label>
+            <label>
+                <input type="radio"
+                       name="radio-group-1" value="Значение2" />
+                Женский
+            </label><br />
 
-        <label>
-            Сверхспособности(если есть):<br />
-            <select name="field-name-2">
-                <option value="Значение1">Отсутствуют</option>
-                <option value="Значение2">Бессмертие</option>
-                <option value="Значение3">Прохождение сквозь стены</option>
-                <option value="Значение4">Левитация</option>
-            </select>
-        </label><br />
+            Количество конечностей:<br />
+            <label>
+                <input type="radio" checked="checked"
+                       name="radio-group-1" value="Значение1" />
+                0
+            </label>
+            <label>
+                <input type="radio"
+                       name="radio-group-1" value="Значение2" />
+                1
+            </label>
+            <label>
+                <input type="radio" checked="checked"
+                       name="radio-group-1" value="Значение3" />
+                2
+            </label>
+            <label>
+                <input type="radio"
+                       name="radio-group-1" value="Значение4" />
+                3
+            </label>
+            <label>
+                <input type="radio"
+                       name="radio-group-1" value="Значение5" />
+                4
+            </label>
+            <label>
+                <input type="radio" checked="checked"
+                       name="radio-group-1" value="Значение6" />
+                5
+            </label><br />
 
-
-
-        <label>
-            Ваша биография:<br />
-            <textarea name="field-name-3"></textarea>
-        </label><br />
+            <label>
+                Сверхспособности(если есть):<br />
+                <select name="field-name-2">
+                    <option value="Значение1">Отсутствуют</option>
+                    <option value="Значение2">Бессмертие</option>
+                    <option value="Значение3">Прохождение сквозь стены</option>
+                    <option value="Значение4">Левитация</option>
+                </select>
+            </label><br />
 
 
 
-
-        <label>
-            С контрактом ознакомлен(a)
-            <input type="checkbox" checked="checked"
-                   name="check-1" />
-        </label><br />
+            <label>
+                Ваша биография:<br />
+                <textarea name="field-name-3"></textarea>
+            </label><br />
 
 
-        <input type="submit" value="Отправить" />
-    </form><br />
 
-    <a id="table"></a>
-           <table>
-               <tr>
-                   <th>Колонка 1</th>
-                   <th>Колонка 2</th>
-                   <th>Колонка 3</th>
-               </tr>
-               <tr>
-                   <td>Ячейка 11</td>
-                   <td colspan="2">Ячейка 12<td>
-               </tr>
-               <tr>
-                   <td>Ячейка 21</td>
-                   <td>Ячейка 22</td>
-                   <td>Ячейка 23</td>
-               </tr>
-               <tr>
-                   <td colspan="3">Ячейка 31</td>
-               </tr>
-               <tr>
-                   <td>Ячейка 41</td>
-                   <td>Ячейка 42</td>
-                   <td>Ячейка 43</td>
-               </tr>
-           </table>
 
-    <a id="anchor"></a>
-    <h2>Ссылки</h2>
-    <ol>
-        <li><a href="http://example.com">абсолютная гиперссылка на главную страницу сайта example.com</a></li>
-        <li><a href="https://example.com">абсолютная на главную сайта example.com в протоколе https</a></li>
-        <li><a href="ftp://example.com">ссылка на файл на сервере FTP без авторизации</a></li>
-        <li><a href="ftp://user:pass1234@example.com">ссылка на файл на сервере FTP с авторизацией</a></li>
-        <li><a href="https://ru.wikipedia.org/wiki/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%92%D0%B8%D0%B7%D0%B0%D0%BD%D1%82%D0%B8%D0%B8">ссылка на фрагмент страницы некоторого сайта</a></li>
-        <li><a href="#anchor">ссылка на фрагмент текущей страницы</a></li>
-        <li><a href="https://example.com?name=anchor&?nubmer=6"></a></li>
-        <li>
-            <ul>
-                <li><a href="#top">Вверх</a></li>
-                <li><a href="#anchor">Начало ссылок</a></li>
-            </ul>
-        </li>
-        <li><a>Ссылка без href</a></li>
-        <li><a href="">Ссылка с пустым href</a></li>
-        <li><a href="https://example.com/" rel="nofollow">Запрещён переход поисковикам</a></li>
-        <li><noindex><a href="https://example.com">Запрещённая для индексации поисковиками</a></noindex></li>
-        <li> контекстную в <a href="https://example.com">тексте</a> абзаца</li>
-        <li><a href="unsplash.com/photos"><img src="https://unsplash.com/photos/7Bmk9mAXP2I" alt="Ошибка">Ссылка на изображение</a></li>
-        <li><map name="yandex"> <area shape="rect" coords="311,110,744,285" href="https://https://ru.wikipedia.org/wiki" alt="Прямоугольник"> <area shape="circle" coords="168,184,115" href="https://ru.wikipedia.org/wiki/Кратер_(военачальник)" alt="Круг"> </map> <a id="map"><img src="example/figures.png" usemap="#yandex" alt="map"></a>
-        <li><a href="Ссылаемый документ.html">относительную на страницу в текущем каталоге</a></li>
-        <li><a </li>
-        <li><a href="../Ссылаемый документ.html"> относительную на страницу в каталоге уровнем выше текущего</a></li>
-        <li><a href="/папка2/папка1/Ссылаемый документ.html"> относительную на страницу в каталоге двумя уровнями выше</a></li>
-        <li><a href="/"></a> сокращенную на главную</li>
-        <li><a href="/год рождения/2004.html"> сокращенную ссылку на внутреннюю</a></li>
-    </ol>
+            <label>
+                С контрактом ознакомлен(a)
+                <input type="checkbox" checked="checked"
+                       name="check-1" />
+            </label><br />
+
+
+            <input type="submit" value="Отправить" />
+        </form><br />
+
+        <a id="table"></a>
+        <table>
+            <tr class="class1">
+                <th>Колонка 1</th>
+                <th>Колонка 2</th>
+                <th>Колонка 3</th>
+            </tr>
+            <tr class="class2">
+                <td>Ячейка 11</td>
+                <td colspan="2">Ячейка 12
+                <td>
+            </tr>
+            <tr class="class1">
+                <td>Ячейка 21</td>
+                <td>Ячейка 22</td>
+                <td>Ячейка 23</td>
+            </tr>
+            <tr class="class2">
+                <td colspan="3">Ячейка 31</td>
+            </tr>
+            <tr class="class1">
+                <td>Ячейка 41</td>
+                <td>Ячейка 42</td>
+                <td>Ячейка 43</td>
+            </tr>
+        </table>
+
+        <a id="anchor"></a>
+        <h2>Ссылки</h2>
+        <ol>
+            <li><a href="http://example.com">абсолютная гиперссылка на главную страницу сайта example.com</a></li>
+            <li><a href="https://example.com">абсолютная на главную сайта example.com в протоколе https</a></li>
+            <li><a href="ftp://example.com">ссылка на файл на сервере FTP без авторизации</a></li>
+            <li><a href="ftp://user:pass1234@example.com">ссылка на файл на сервере FTP с авторизацией</a></li>
+            <li><a href="https://ru.wikipedia.org/wiki/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%92%D0%B8%D0%B7%D0%B0%D0%BD%D1%82%D0%B8%D0%B8">ссылка на фрагмент страницы некоторого сайта</a></li>
+            <li><a href="#anchor">ссылка на фрагмент текущей страницы</a></li>
+            <li><a href="https://example.com?name=anchor&?nubmer=6"></a></li>
+            <li>
+                <ul>
+                    <li><a href="#top">Вверх</a></li>
+                    <li><a href="#anchor">Начало ссылок</a></li>
+                </ul>
+            </li>
+            <li><a>Ссылка без href</a></li>
+            <li><a href="">Ссылка с пустым href</a></li>
+            <li><a href="https://example.com/" rel="nofollow">Запрещён переход поисковикам</a></li>
+            <li><noindex><a href="https://example.com">Запрещённая для индексации поисковиками</a></noindex></li>
+            <li> контекстную в <a href="https://example.com">тексте</a> абзаца</li>
+            <li><a href="unsplash.com/photos"><img src="https://unsplash.com/photos/7Bmk9mAXP2I" alt="Ошибка">Ссылка на изображение</a></li>
+            <li><map name="yandex"> <area shape="rect" coords="311,110,744,285" href="https://https://ru.wikipedia.org/wiki" alt="Прямоугольник"> <area shape="circle" coords="168,184,115" href="https://ru.wikipedia.org/wiki/Кратер_(военачальник)" alt="Круг"> </map> <a id="map"><img src="example/figures.png" usemap="#yandex" alt="map"></a>
+            <li><a href="Ссылаемый документ.html">относительную на страницу в текущем каталоге</a></li>
+            <li><a </li>
+            <li><a href="../Ссылаемый документ.html"> относительную на страницу в каталоге уровнем выше текущего</a></li>
+            <li><a href="/папка2/папка1/Ссылаемый документ.html"> относительную на страницу в каталоге двумя уровнями выше</a></li>
+            <li><a href="/"></a> сокращенную на главную</li>
+            <li><a href="/год рождения/2004.html"> сокращенную ссылку на внутреннюю</a></li>
+        </ol>
+
+    </div>
 
     <footer>
         <p>(c) Сергей Синица 2022</p>

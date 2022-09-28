@@ -4,7 +4,9 @@
 }
 div.main {
     width: 960px;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #800080;
 }
 body.main {
     background-color: #87CEEB;

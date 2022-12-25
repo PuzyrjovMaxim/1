@@ -26,6 +26,7 @@ tr.class2 {
 header {
     text-align: center;
     border: 1px solid grey;
+    background-color: #FFFFE0;
 }
 
 table {
